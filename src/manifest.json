@@ -1,0 +1,17 @@
+{
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://www.amazon.co.jp/gp/buy/spc/handlers/display.html?*"]
+    }
+  ],
+  "description": "amazon pochitta extension",
+  "manifest_version": 3,
+  "name": "Pochitta",
+  "short_name": "Pochitta",
+  "version": "0.0.1",
+  "permissions": ["activeTab", "tts"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
