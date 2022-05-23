@@ -1,5 +1,3 @@
-console.log("background.js");
-
 chrome.runtime.onMessage.addListener(async (request) => {
   const speakerSetting = {
     lang: "ja-JP",
