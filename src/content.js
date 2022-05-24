@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const main = async () => {
   const orderButtonElms = [
@@ -9,8 +9,8 @@ const main = async () => {
   ];
 
   orderButtonElms.map((elm) => {
-    elm.addEventListener("click", () => {
-      chrome.runtime.sendMessage({ toSay: "ポチッ！" });
+    elm.addEventListener('click', () => {
+      chrome.runtime.sendMessage({ toSay: 'ポチッ！' });
     });
   });
 };

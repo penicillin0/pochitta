@@ -2,5 +2,5 @@ module.exports = {
   env: {
     webextensions: true,
   },
-  extends: ["eslint:recommended"],
+  extends: ['eslint:recommended'],
 };
