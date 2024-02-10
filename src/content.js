@@ -6,6 +6,7 @@ const main = async () => {
     document.querySelector(
       '[aria-labelledby="bottomSubmitOrderButtonId-announce"]'
     ),
+    document.getElementById('addressChangeLinkId'),
   ];
 
   orderButtonElms.map((elm) => {
